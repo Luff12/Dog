@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Dog</title>
+</head>
+<body>
+    <h1>Random Dog Image</h1>
+    <img src="{{ dog_image_url }}" alt="Random Dog" style="max-width: 500px; height: auto;">
+    <br>
+    <a href="{{ url_for('dog') }}">Get Another Dog</a>
+    <br>
+    <a href="{{ url_for('index') }}">Back to Pincode Search</a>
+</body>
+</html>
